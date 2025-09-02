@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>ENTER.</title>
+  <style>
+    body {
+      background: black;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100vh;
+    }
+    pre.big {
+      font-family: monospace;
+      font-size: 14px;
+      line-height: 14px;
+      margin-top: 20px;
+      white-space: pre;
+      text-align: center;
+      color: red;
+      animation: flame-flicker 0.8s infinite alternate;
+    }
+
+    @keyframes flame-flicker {
+      0%   { color: #7a0000; }
+      25%  { color: #bb0000; }
+      50%  { color: #7a0000; }
+      75%  { color: #b12a2a; }
+      100% { color: #7a0000; }
+    }
+    .pixel-button {
+      font-family: monospace;
+      font-size: 12px;
+      margin-top: 15px;
+      padding: 5px 10px;
+      color: rgb(54, 53, 53);
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-align: center;
+      white-space: pre;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .pixel-button:hover {
+      color: #6e0000;
+      transform: scale(1.1);
+    }
+
+    .pixel-button:active {
+      color: rgb(148, 0, 0); 
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+<body>
+  <pre class="big">
+
+
+
+
+          _____                    _____                    _____                _____          
+         /\    \                  /\    \                  /\    \              |\    \         
+        /::\    \                /::\    \                /::\    \             |:\____\        
+        \:::\    \              /::::\    \              /::::\    \            |::|   |        
+         \:::\    \            /::::::\    \            /::::::\    \           |::|   |        
+          \:::\    \          /:::/\:::\    \          /:::/\:::\    \          |::|   |        
+           \:::\    \        /:::/  \:::\    \        /:::/__\:::\    \         |::|   |        
+           /::::\    \      /:::/    \:::\    \      /::::\   \:::\    \        |::|   |        
+  ____    /::::::\    \    /:::/    / \:::\    \    /::::::\   \:::\    \       |::|___|______  
+ /\   \  /:::/\:::\    \  /:::/    /   \:::\    \  /:::/\:::\   \:::\    \      /::::::::\    \ 
+/::\   \/:::/  \:::\____\/:::/____/     \:::\____\/:::/__\:::\   \:::\____\    /::::::::::\____\
+\:::\  /:::/    \::/    /\:::\    \      \::/    /\:::\   \:::\   \::/    /   /:::/~~~~/~~      
+ \:::\/:::/    / \/____/  \:::\    \      \/____/  \:::\   \:::\   \/____/   /:::/    /         
+  \::::::/    /            \:::\    \               \:::\   \:::\    \      /:::/    /          
+   \::::/____/              \:::\    \               \:::\   \:::\____\    /:::/    /           
+    \:::\    \               \:::\    \               \:::\   \::/    /    \::/    /            
+     \:::\    \               \:::\    \               \:::\   \/____/      \/____/             
+      \:::\    \               \:::\    \               \:::\    \                              
+       \:::\____\               \:::\____\               \:::\____\                             
+        \::/    /                \::/    /                \::/    /                             
+         \/____/                  \/____/                  \/____/                              
+                                                                                                
+
+
+
+
+
+
+
+
+
+ 
+  </pre>
+
+  <button class="pixel-button" onclick="location.href='loading.html'">
+    >>> Click me to enter. <<<
+  </button>
+</body>
+</html>
